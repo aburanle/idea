@@ -5,6 +5,7 @@ package idea221;
  *
  * 生产者（Productor）将产品交给店员（Clerk），而消费者（Customer）从店员处取走产品，店员一次只能持有固定数量的产品（如20），
  * 如果生产者试图生产更多的产品，店员会叫停生产者，直到有空位了再继续生产；如果没有产品了，店员则会叫停消费者，直到生产出了新的产品。
+ *
  */
 public class ProductorCustomerTest {
     public static void main(String[] args) {
