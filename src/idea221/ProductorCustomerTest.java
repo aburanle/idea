@@ -19,6 +19,7 @@ public class ProductorCustomerTest {
         t1.start();
         t2.start();
         System.out.println("master test");
+        System.out.println("hot-fix test");
     }
 }
 class Product{
