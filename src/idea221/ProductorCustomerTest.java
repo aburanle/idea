@@ -18,6 +18,7 @@ public class ProductorCustomerTest {
         t2.setName("消费者");
         t1.start();
         t2.start();
+        System.out.println("git test");
     }
 }
 class Product{
