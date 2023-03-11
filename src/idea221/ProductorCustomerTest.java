@@ -18,8 +18,7 @@ public class ProductorCustomerTest {
         t2.setName("消费者");
         t1.start();
         t2.start();
-        System.out.println("master test");
-        System.out.println("hot-fix test");
+        System.out.println("pull test");
     }
 }
 class Product{
